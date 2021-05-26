@@ -8,7 +8,7 @@
 // partiklar ha samma färg men om den returnerar olika färger
 // t.ex. baserat på slump eller baserat på inparametern groupName
 // så kan det istället bli en blandning av färger.
-
+function myFunction(){
 const audio = new Audio("bomb.wav");
 
 const chooseParticleColor = (groupName) => {
@@ -48,5 +48,6 @@ const bang = (addConfettiParticles) => {
 export {
   chooseParticleColor,
   bang,
+}
 }
 
